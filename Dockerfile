@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
 		curl \
 		git
 		
-RUN pip3 install \
+RUN pip3 install --upgrade pip && pip3 install \
 	jwplatform \
-#	clack-cli \
-	yaml
+	# clack-cli==2.0.0b9 \
+	pyyaml
