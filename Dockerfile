@@ -11,5 +11,5 @@ RUN apt-get update && apt-get install -y \
 		
 RUN pip3 install \
 	jwplatform \
-	clack-cli \
+#	clack-cli \
 	yaml
